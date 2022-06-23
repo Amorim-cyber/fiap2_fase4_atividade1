@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B56740F-AADB-4375-92AA-169B60DF0ED4" name="T2_MATERIAL">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 16:01:41 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_MATERIAL" id="E469B6C3-0555-6493-5F97-07C9851CF8E2">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 16:03:04 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_MATERIAL" id="8C8A56DA-2B75-F8B7-66A7-F307343735AA">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 16:03:12 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_MATERIAL" id="4BC6A861-165B-AD47-C9A1-7DFAD52A00B9">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 16:04:18 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_STATUS" id="09EF76AB-0ECF-C39C-7A2D-7E7129209058">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:34:28 UTC</createdTime>
+<generatorID>135BEF8C-C1A2-2B3B-7EDB-8366FE94A5DD</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>1A88D62D-C189-A7AE-B3F6-3EB5BE48AC4B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3E0B143-AF9D-D41F-1312-4487A17FA51C" name="T_MATERIAL PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 16:03:20 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E469B6C3-0555-6493-5F97-07C9851CF8E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

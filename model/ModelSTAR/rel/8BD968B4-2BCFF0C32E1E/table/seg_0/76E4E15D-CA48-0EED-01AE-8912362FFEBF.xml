@@ -1,0 +1,243 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76E4E15D-CA48-0EED-01AE-8912362FFEBF" name="FAT_DESPESAS">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>AA03D21C-8362-ACC8-C392-7B03BBC2D6B5</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_DATA" id="0A993B49-2A02-0814-53B6-9951056E298C">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>EEA45C85-D1FC-C46A-0511-C56B0F391C12</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B760CD0C-1232-482B-ED4E-6A330D202A08" referredColumn="E8405580-8079-A0AF-8EBD-77AFE4C2D3C8"/>
+</associations>
+</Column>
+<Column name="SK_RESIDENCIA" id="3D6978DA-807E-4EA8-291E-C321F9DBA67A">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>75C8425E-7758-099B-0233-DC1CB12315C6</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82F865F8-FA70-1F8C-D94F-75DC0D159B6D" referredColumn="C48F3282-EA45-D9D8-6450-8431F317945E"/>
+</associations>
+</Column>
+<Column name="SK_MATERIAL" id="A8939C43-7766-9503-3E69-BD753B4F5E02">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>412C8779-392B-6B99-E232-9E676D6D13AB</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B80AE35-0FE7-2E24-4BF2-0D6288780C03" referredColumn="A9780D1E-7B88-3182-A76B-E3D342CB2597"/>
+</associations>
+</Column>
+<Column name="SK_PRESTADOR" id="D6798227-4B54-D916-7706-46AC7451E266">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>7AA6CBE8-0D23-1E2D-F59C-44C63F24B747</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CD30D3D-C646-CA2A-6C76-E03D7E2F94AC" referredColumn="731B3E95-1C67-8B1B-0E1C-8FD1364E3739"/>
+</associations>
+</Column>
+<Column name="SK_MORADOR" id="437486AA-E644-1211-B048-1F66A0446661">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>C1B0CCDE-65FB-BC6D-3F6C-D3097F7F0350</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37740667-517D-5916-5623-E7E34F1A393C" referredColumn="B6F340C0-E6D6-4958-17DD-6CC7B56B6198"/>
+</associations>
+</Column>
+<Column name="SK_CONTRATO" id="7E4448F6-1C3D-F6F1-C81D-553187F797E4">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:51:30 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0094E1BB-00EE-725A-9807-7B58C87A3E1B" referredColumn="D587B1DC-A102-F394-FD58-0B0FF5F85571"/>
+</associations>
+</Column>
+<Column name="DD_REGISTRO" id="DF57E3CB-4633-101D-0DD1-5DC97EF5ADCF">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>4EA5349D-4E91-0497-8E26-FD76815089A6</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_DIARIA" id="B8DD72F3-4E83-1FF8-FB5F-89C340A6E195">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>1574695D-EA8D-A6B1-3D8E-41258E9EAC5D</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_MATERIAL" id="93FED469-024F-DB22-5652-57FA797B179C">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>FFDB4F46-57A7-59A0-9EE6-D9917236076D</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QT_MATERIAL" id="F226AB39-CBCF-F898-3FAB-29F9FCB19267">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-17 15:42:14 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A4F0573-F889-AB20-E26A-29B96A37C456" name="FAT_DESPESAS_PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>86DE9075-DA47-2CFB-AC03-AFCD5469AF1D</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF57E3CB-4633-101D-0DD1-5DC97EF5ADCF"/>
+<colUsage columnID="0A993B49-2A02-0814-53B6-9951056E298C"/>
+<colUsage columnID="3D6978DA-807E-4EA8-291E-C321F9DBA67A"/>
+<colUsage columnID="A8939C43-7766-9503-3E69-BD753B4F5E02"/>
+<colUsage columnID="D6798227-4B54-D916-7706-46AC7451E266"/>
+<colUsage columnID="437486AA-E644-1211-B048-1F66A0446661"/>
+<colUsage columnID="7E4448F6-1C3D-F6F1-C81D-553187F797E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A059FFCB-A9DE-21D7-9E19-BCF4DC79FF2F" name="MATERIAL_SK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>445B1B89-161C-3353-ABD1-0036E180E890</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8939C43-7766-9503-3E69-BD753B4F5E02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C611CD6B-093B-722E-0698-7FEC3FAB5ACB" name="PRESTADOR_SK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>5E592B6E-F180-FEBA-56DA-FFE7EF1E94EB</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6798227-4B54-D916-7706-46AC7451E266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FF68A42-1311-03FB-745B-6E90E134ABF1" name="MORADOR_SK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>38F95954-8A2C-2FD6-4BDF-7419048E6238</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="437486AA-E644-1211-B048-1F66A0446661"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBE8FEA9-3358-3EEF-D201-6BCFCEA6F8F7" name="DATA_SK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>18BC5DDE-94C1-EE92-B20D-4A90A439BFB9</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A993B49-2A02-0814-53B6-9951056E298C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A84F1E27-E74D-723B-F383-D751C5C65017" name="RESIDENCIA_SK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>A0101D07-AFD6-0876-7A0E-1905A0DDEAE0</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D6978DA-807E-4EA8-291E-C321F9DBA67A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFBFF542-942E-C9D1-EEB6-6F9A9BAE2DE7" name="CONTRATO_SK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:51:30 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E4448F6-1C3D-F6F1-C81D-553187F797E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

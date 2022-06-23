@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AE67366-3785-3748-43C4-5F160F727B5C" name="T2_REGISTRO">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 13:59:18 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_REGISTRO" id="6A2FFCEB-ECEE-A917-A074-EA11C5ED1E0B">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 14:00:34 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_REGISTRO" id="2BD7FAF9-5659-CB51-E593-72044D2332A3">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 14:03:35 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_RESIDENCIA" id="36553DFD-89DC-50D2-F25C-5DB8D7178D73">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:32:03 UTC</createdTime>
+<generatorID>27CDD722-E0F2-E543-0EEA-63E2287563DD</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>B28C8A7F-A2A9-0AE9-112B-5DC6C2010EBD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_MATERIAL" id="B60A22DD-F538-70F8-5FB6-CC33B372C1EC">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:33:25 UTC</createdTime>
+<generatorID>F43DF5C3-F1A8-1352-9D1E-D57A8FDE17E8</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>E469B6C3-0555-6493-5F97-07C9851CF8E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CONTRATO" id="801376C4-6F1D-9CDB-ADC6-3C0DEA8252C4">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:33:55 UTC</createdTime>
+<generatorID>AA3DEAFC-4D80-CC9A-E366-1BBE170A0AAF</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>7E6E092B-1329-CA1A-633C-BE9CA6E22206</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PRESTADOR" id="BA3CA884-B816-9DEB-C78F-E67C11500EB2">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:35:51 UTC</createdTime>
+<generatorID>B6BFE0C6-7D5F-CA9F-CD67-AF7A63B54DE1</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>622C5129-EB6C-6A02-7F78-4E54E84CFFF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE76BB8D-9E73-4F7E-6842-5D925F8F78DC" name="T_REGISTRO PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 14:01:10 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A2FFCEB-ECEE-A917-A074-EA11C5ED1E0B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BEC36C4-B7D5-EA25-413A-D023411E9259" name="T2_UF">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:12:38 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_UF" id="67CF1FB9-D543-2DBB-9E58-6832119D26C9">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:12:45 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_UF" id="8651829B-DF63-7CFB-EF30-148334C47B41">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:13:22 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5EA80E13-6E34-E846-EC0C-0A6FB4EBD400" name="T_UF PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:14:05 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67CF1FB9-D543-2DBB-9E58-6832119D26C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

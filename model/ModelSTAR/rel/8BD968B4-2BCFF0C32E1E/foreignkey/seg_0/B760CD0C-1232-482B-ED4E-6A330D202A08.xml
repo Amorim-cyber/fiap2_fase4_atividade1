@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B760CD0C-1232-482B-ED4E-6A330D202A08" containerWithKeyObject="76E4E15D-CA48-0EED-01AE-8912362FFEBF" localFKIndex="DBE8FEA9-3358-3EEF-D201-6BCFCEA6F8F7" name="DATA_SK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>18BC5DDE-94C1-EE92-B20D-4A90A439BFB9</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<referredTableLongName>DIM_DESPESAS_DATA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>938EB9CD-7964-D323-105C-C6F8B5110CF7</referredTableID>
+<keyObject>44881953-19B5-32A3-00E0-E1CBF7B48C04</keyObject>
+<referredKeyID>44881953-19B5-32A3-00E0-E1CBF7B48C04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_DATA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

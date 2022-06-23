@@ -1,0 +1,104 @@
+<Schema name="Schema_Despesas">
+  <Dimension type="TimeDimension" visible="true" highCardinality="false" name="Data" caption="Data">
+    <Hierarchy visible="true" hasAll="true" allMemberName="Todas_Datas" allMemberCaption="Todas as Datas" primaryKey="SK_DATA">
+      <Table name="DIM_DESPESAS_DATA" schema="RM88633">
+      </Table>
+      <Level name="Ano" visible="true" column="ANO" type="Integer" uniqueMembers="false" levelType="TimeYears" hideMemberIf="Never">
+      </Level>
+      <Level name="Semestre" visible="true" column="SEMESTRE" type="Integer" uniqueMembers="false" levelType="TimeHalfYears" hideMemberIf="Never">
+      </Level>
+      <Level name="Trimestre" visible="true" column="TRIMESTRE" type="Integer" uniqueMembers="false" levelType="TimeQuarters" hideMemberIf="Never">
+      </Level>
+      <Level name="Mes" visible="true" column="MES" type="Integer" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never">
+      </Level>
+      <Level name="Semana" visible="true" column="NR_SEMANA_MES" type="Integer" uniqueMembers="false" levelType="TimeWeeks" hideMemberIf="Never">
+      </Level>
+      <Level name="Dia" visible="true" column="DIA" type="Integer" uniqueMembers="false" levelType="TimeDays" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="Dia" visible="true" hasAll="true" allMemberName="Todos_Dias" allMemberCaption="Todos os Dias" primaryKey="SK_DATA">
+      <Table name="DIM_DESPESAS_DATA" schema="RM88633">
+      </Table>
+      <Level name="Data" visible="true" column="DATA" type="Date" uniqueMembers="false" levelType="TimeDays" hideMemberIf="Never">
+      </Level>
+      <Level name="Extenso" visible="true" column="DATA_POR_EXTENSO" type="String" uniqueMembers="false" levelType="TimeDays" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Cube name="Cube_Despesas" caption="Despesas de obras/reformas" visible="true" description="Cubo para an&#225;lises das despesas de obras/reformas" cache="true" enabled="true">
+    <Table name="FAT_DESPESAS" schema="RM88633" alias="FATO_DESPESAS">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" foreignKey="SK_MORADOR" highCardinality="false" name="DIM_MORADOR" caption="Morador">
+      <Hierarchy visible="true" hasAll="true" allMemberName="Todos_Moradores" allMemberCaption="Todos os Moradores" primaryKey="SK_MORADOR">
+        <Table name="DIM_DESPESAS_MORADOR" schema="RM88633">
+        </Table>
+        <Level name="Status" visible="true" column="NM_STATUS" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Tipo" visible="true" column="NM_TIPO" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Nome" visible="true" column="NM_MORADOR" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="SK_PRESTADOR" highCardinality="false" name="DIM_PRESTADOR" caption="Prestador">
+      <Hierarchy visible="true" hasAll="true" allMemberName="Todos_Prestadores" allMemberCaption="Todos os Prestadores" primaryKey="SK_PRESTADOR">
+        <Table name="DIM_DESPESAS_PRESTADOR" schema="RM88633">
+        </Table>
+        <Level name="Status" visible="true" column="NM_STATUS" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Tipo" visible="true" column="NM_TIPO" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Profiss&#227;o" visible="true" column="NM_PROFISSAO" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Nome" visible="true" column="NM_PRESTADOR" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="SK_RESIDENCIA" highCardinality="false" name="DIM_RESIDENCIA" caption="Resid&#234;ncia">
+      <Hierarchy visible="true" hasAll="true" allMemberName="Todas_Residencias" allMemberCaption="Todas as Resid&#234;ncias" primaryKey="SK_RESIDENCIA">
+        <Table name="DIM_DESPESAS_RESIDENCIA" schema="RM88633">
+        </Table>
+        <Level name="Status" visible="true" column="NM_STATUS" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Tipo" visible="true" column="NM_TIPO" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="UF" visible="true" column="SG_UF" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Cidade" visible="true" column="NM_CIDADE" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Endere&#231;o" visible="true" column="NM_ENDERECO" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="CEP" visible="true" column="NR_CEP" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="SK_MATERIAL" highCardinality="false" name="DIM_MATERIAL" caption="Material">
+      <Hierarchy visible="true" hasAll="true" allMemberName="Todos_Materiais" allMemberCaption="Todos os Materiais" primaryKey="SK_MATERIAL">
+        <Table name="DIM_DESPESAS_MATERIAL" schema="RM88633">
+        </Table>
+        <Level name="Status" visible="true" column="NM_STATUS" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Material" visible="true" column="NM_MATERIAL" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="SK_CONTRATO" highCardinality="false" name="DIM_CONTRATO" caption="Contrato">
+      <Hierarchy visible="true" hasAll="true" allMemberName="Todos_Contratos" allMemberCaption="Todos os Contratos" primaryKey="SK_CONTRATO">
+        <Table name="DIM_DESPESAS_CONTRATO" schema="RM88633">
+        </Table>
+        <Level name="Status" visible="true" column="NM_STATUS" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+        <Level name="Codigo Contrato" visible="true" column="CD_CONTRATO" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <DimensionUsage source="Data" name="Data" visible="true" foreignKey="SK_DATA" highCardinality="false">
+    </DimensionUsage>
+    <Measure name="Quantidade Material Comprado" column="QT_MATERIAL" datatype="Integer" aggregator="sum" description="Quantidade material comprada" visible="true">
+    </Measure>
+    <Measure name="M&#233;dia Pre&#231;o Diaria Prestador" column="VL_DIARIA" datatype="Numeric" aggregator="avg" description="M&#233;dia Pre&#231;o Diaria Prestador" visible="true">
+    </Measure>
+    <Measure name="M&#233;dia Pre&#231;o Materiais" column="VL_MATERIAL" datatype="Numeric" aggregator="avg" description="M&#233;dia Pre&#231;o Materiais" visible="true">
+    </Measure>
+  </Cube>
+</Schema>

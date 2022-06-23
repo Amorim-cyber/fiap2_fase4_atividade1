@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A682837E-E430-D536-4D8B-99AD24D975DF" name="T2_CONTRATO">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>33B7F403-72FE-6D25-32C0-01EE7AD20EF9</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NR_CONTRATO" id="AAA81914-46E1-A0F7-E678-7D59369EA15F">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>7E6E092B-1329-CA1A-633C-BE9CA6E22206</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_CONTRATO" id="54805754-2E8A-C70C-811D-42BB472D2705">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>9C80DCF9-C422-AA7C-6CD0-E4BB4B58CFDF</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="21CFFDF4-0DE0-29E2-D178-19ED081BE198">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>315701D7-AA94-35A9-FFA9-367D209B03EC</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TERMINO" id="E610BF0E-ABAE-6EBF-CC33-A4FF4727ED5B">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>3972174E-0CFC-2CA2-38B9-C84A82B4CD01</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_STATUS" id="DBE9C4A7-C259-8B77-CC50-411E090CB2A4">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>89E389BD-8F79-3AC3-AF3F-6CFDA1109B5F</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96A0DF96-F1D4-5FD9-5992-94E78B323BCE" referredColumn="BB859AC3-273C-7982-D10D-A231BC13E662"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A34DDAEC-A5FC-7C75-14A0-74967CA320C6" name="T2_CONTRATO_PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>3BA1288A-554E-B095-327C-FF05B8D5F9C6</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAA81914-46E1-A0F7-E678-7D59369EA15F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19EC7132-B4C6-571B-F9C8-91D2A5B8D689" name="T2_ST_CON_FK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>DDBF9869-48CD-E0AA-FB55-4A8A4DE00D95</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBE9C4A7-C259-8B77-CC50-411E090CB2A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

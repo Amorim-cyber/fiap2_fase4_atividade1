@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="37740667-517D-5916-5623-E7E34F1A393C" containerWithKeyObject="76E4E15D-CA48-0EED-01AE-8912362FFEBF" localFKIndex="9FF68A42-1311-03FB-745B-6E90E134ABF1" name="MORADOR_SK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>38F95954-8A2C-2FD6-4BDF-7419048E6238</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<referredTableLongName>DIM_DESPESAS_MORADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>37DFD9B2-8C22-A370-EB8E-CFDD369E4DAA</referredTableID>
+<keyObject>0701FEB9-289F-0980-BCE7-177682A4D840</keyObject>
+<referredKeyID>0701FEB9-289F-0980-BCE7-177682A4D840</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_MORADOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

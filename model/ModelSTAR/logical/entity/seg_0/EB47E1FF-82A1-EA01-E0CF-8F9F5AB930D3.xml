@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB47E1FF-82A1-EA01-E0CF-8F9F5AB930D3" name="DIM_DESPESAS_CONTRATO">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:37:36 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_CONTRATO" id="36A07F10-ACB9-0224-E9CE-DA0FC3B10C23">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:38:21 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NK_CONTRATO" id="3B9B8479-BE80-A9A7-981A-191FAC1DDB2F">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:39:43 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_CONTRATO" id="32DED915-B830-CC73-1B86-F8CD577322A3">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:45:17 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="229F4B96-59E8-0974-D738-3CC3365D5567">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:40:11 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TERMINO" id="913777B8-8585-069F-4EF1-35C6C199B870">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:40:57 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F59D992C-A61E-6551-6E11-0023362844A6" name="DIM_DESPESAS_CONTRATO PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:39:31 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36A07F10-ACB9-0224-E9CE-DA0FC3B10C23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37DFD9B2-8C22-A370-EB8E-CFDD369E4DAA" name="DIM_DESPESAS_MORADOR">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>3A5CD5DF-BA12-9021-B51F-4406B4051B2E</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_MORADOR" id="B6F340C0-E6D6-4958-17DD-6CC7B56B6198">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>D0CB7A74-7094-0530-346D-323BDCDBF6C1</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NK_MORADOR" id="DC35A0E8-D0E5-744F-BA9F-E1557B00E168">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>3AD110A2-61C8-3278-1E67-521CC34374DF</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_MORADOR" id="5286D8B3-627B-E02B-553C-F1DAC54781DB">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>9BCEA743-C38E-9078-4044-491D4E7B3F3D</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL_MORADOR" id="760EBB8F-5E49-88E2-25DA-CA35B339EFA9">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>18A534E8-4224-B9E4-3495-E88799CD92A3</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_MORADOR" id="69A8015E-941D-30C2-34A8-78AA4507AEAE">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>CFEFE9E4-A7E0-F44E-CD8A-BA97E8183C1E</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASC" id="7EFD0296-EB83-958A-E074-CBEDDC210611">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>E782B063-C1A3-6ACD-4AF9-04D01386BE70</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_SEXO" id="E3AAA60B-2F3B-48D6-BDB2-7D751942E32C">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>CC6FCA1B-E1C7-AA4E-2E8E-44D7765BE798</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_STATUS" id="C2D1231A-31D6-46D8-C084-85FA97EC4552">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>A7F30254-49C1-6346-BE76-49F411AC6497</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_TIPO" id="E67D76DB-399E-A48D-D797-C3F4F7412456">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>8F3D424C-B739-6EC5-B2DA-3A27671AC202</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0701FEB9-289F-0980-BCE7-177682A4D840" name="MORADOR_PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 22:40:32 UTC</createdTime>
+<generatorID>03B33E81-7A61-C8FD-2BDB-7F77F53098CA</generatorID>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6F340C0-E6D6-4958-17DD-6CC7B56B6198"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

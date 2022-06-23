@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D142B557-C639-2033-FE8D-2AF585A1A29D" name="T2_REGISTRO">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>2AE67366-3785-3748-43C4-5F160F727B5C</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NR_REGISTRO" id="3DB78326-D10C-A747-26A9-0E85FDA38BAB">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>6A2FFCEB-ECEE-A917-A074-EA11C5ED1E0B</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_REGISTRO" id="5C00D5D6-53EC-C0D9-D6CC-F4B9FF8ED715">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>2BD7FAF9-5659-CB51-E593-72044D2332A3</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QT_MATERIAL" id="7A4A536F-49BE-6887-9F43-DE8E5175E28B">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-17 15:44:45 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_RESIDENCIA" id="3D29EDBF-D1D4-0B30-A6E2-C14095762C63">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>36553DFD-89DC-50D2-F25C-5DB8D7178D73</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5D9F8C2-C925-430E-D564-79ABD52BD530" referredColumn="7B8ABC86-FAB8-AC3F-B788-C4418DAFDDB6"/>
+</associations>
+</Column>
+<Column name="CD_MATERIAL" id="BF89DC59-C914-6542-008E-CD8CF0820365">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>B60A22DD-F538-70F8-5FB6-CC33B372C1EC</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5E548FF-7DA7-02F1-F928-546CEC8922F6" referredColumn="D148CFDF-9264-E774-C5F7-BE61F34D7819"/>
+</associations>
+</Column>
+<Column name="NR_CONTRATO" id="203E0C71-C7C2-083A-012F-8A8A9B9C53EE">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>801376C4-6F1D-9CDB-ADC6-3C0DEA8252C4</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10A6AD22-DD35-8482-BEC7-34A45ED344B7" referredColumn="AAA81914-46E1-A0F7-E678-7D59369EA15F"/>
+</associations>
+</Column>
+<Column name="CD_PRESTADOR" id="765F314F-3042-BF13-AF10-214064635027">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>BA3CA884-B816-9DEB-C78F-E67C11500EB2</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D13AD248-A563-3C74-40C8-F08754189EFC" referredColumn="9EDBA2FB-5B35-41AF-A713-05F5D7417D14"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C23E5763-F1F8-0B9B-A198-DBB31174E942" name="T2_REGISTRO_PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>AE76BB8D-9E73-4F7E-6842-5D925F8F78DC</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DB78326-D10C-A747-26A9-0E85FDA38BAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49C65234-3332-3AAB-7C96-9B144503029F" name="T2_RESIDENCIA_FK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>27CDD722-E0F2-E543-0EEA-63E2287563DD</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D29EDBF-D1D4-0B30-A6E2-C14095762C63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAF10E4C-2EF1-FC42-316C-D4DAC2EEE634" name="T2_MATERIAL_FK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>F43DF5C3-F1A8-1352-9D1E-D57A8FDE17E8</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF89DC59-C914-6542-008E-CD8CF0820365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9012B1B-10C1-73FB-1006-2AFE18DF5578" name="T2_CONTRATO_FK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>AA3DEAFC-4D80-CC9A-E366-1BBE170A0AAF</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="203E0C71-C7C2-083A-012F-8A8A9B9C53EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="462B8675-3626-89DE-C3A9-4F40AB594A7E" name="T2_PRESTADOR_FK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>B6BFE0C6-7D5F-CA9F-CD67-AF7A63B54DE1</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="765F314F-3042-BF13-AF10-214064635027"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

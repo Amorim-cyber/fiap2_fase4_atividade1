@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F59C3C2-BE83-6182-2E16-63309A62290A" name="DIM_DESPESAS_CONTRATO">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:46:36 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_CONTRATO" id="D587B1DC-A102-F394-FD58-0B0FF5F85571">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:49:00 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NK_CONTRATO" id="B53C9B51-6509-557F-F59B-74797AAB15E7">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:49:00 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_CONTRATO" id="6474C13A-9017-C35A-2E63-2BF4DA9ACE3E">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:49:00 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="72B1CAEA-F978-1845-FCEB-6BFB7D1E7992">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:49:00 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TERMINO" id="235BE9F7-8817-BD7B-DF93-7978DC073D45">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:49:00 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_STATUS" id="CE541D9A-A20B-57DA-9317-8B5F5425365E">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-21 12:02:43 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40399113-6D71-4F54-F03E-D1C7BD02B478" name="CONTRATO_PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:49:00 UTC</createdTime>
+<ownerDesignName>ModelSTAR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D587B1DC-A102-F394-FD58-0B0FF5F85571"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

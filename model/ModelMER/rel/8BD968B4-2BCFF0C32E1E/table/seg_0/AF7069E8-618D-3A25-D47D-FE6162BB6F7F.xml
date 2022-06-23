@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF7069E8-618D-3A25-D47D-FE6162BB6F7F" name="T2_ENDERECO">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>AD1FB065-84CB-1693-21C0-3C6BE7180C7E</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_ENDERECO" id="E871F3C8-367B-9AE7-B3ED-07AF497434CA">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>130199CC-FF8C-B55E-8F7E-C7AB2155C590</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ENDERECO" id="5536D1DE-9565-6BA4-5F84-9F6E47231C36">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>531E7D05-1836-C338-B095-AB3527DBE65A</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CEP" id="FC9AD1CD-90D4-3C4B-E3D3-914F7C8CCA45">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>93DDEAEE-6EAE-9BE1-ACC2-67698BD700F4</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_CIDADE" id="274BD411-FD07-9B61-0EA7-73571E385CDE">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:54:10 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0F13C00-F24E-D407-08AF-D1D1626EE77F" referredColumn="860ABD35-53DA-A512-612B-7035B78141E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="924AA312-EC03-F845-D19F-31D927667CD9" name="T2_END_PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>E8EFB052-E3F2-C3A8-80D2-DE8250D7B478</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E871F3C8-367B-9AE7-B3ED-07AF497434CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A5768CC-5B88-07C3-ECC5-C833E0D9B8A9" name="T2_CIDADE_FK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-16 19:54:10 UTC</createdTime>
+<generatorID>5BCADFA1-A79D-9A9C-EDB6-2096CA2C1F66</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="274BD411-FD07-9B61-0EA7-73571E385CDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

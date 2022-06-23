@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F8E2AFD-2E95-693D-D2FC-689FC3C65253" name="T2_PRESTADOR">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 15:11:19 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PRESTADOR" id="622C5129-EB6C-6A02-7F78-4E54E84CFFF1">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 15:12:10 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PRESTADOR" id="1C8EBA2B-17A1-82E3-3806-9CF0DAFB78AA">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 15:15:40 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEL_PRESTADOR" id="A4D7B721-0989-42D8-3860-8C8341FCB5A8">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 15:17:52 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL_PRESTADOR" id="7281E07B-108C-D9AA-ABDD-E35AFB369D1D">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 15:18:22 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASC" id="DCD453CD-A5F4-7C35-A86C-02423D399883">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:43:50 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_SEXO" id="F167AD43-EC9E-B940-9E9F-1D17A3BA38B1">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:44:21 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PROFISSAO" id="1BD9FE8B-139C-25FA-7B2C-31BB00C49045">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:34:53 UTC</createdTime>
+<generatorID>5AE8FF7A-50E3-FCB7-01BA-D691A3977534</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>F3F4B631-FAAF-6371-235B-7C6EC3477EE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_TIPO" id="00DE0DAF-0816-0B39-E0F2-9E1B412EC97B">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:35:05 UTC</createdTime>
+<generatorID>DB8115A3-CFA3-7A35-57A8-473C2DDA9993</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>9A7F9C6C-F3ED-D814-361E-098C1D030BA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_STATUS" id="6841922D-A669-EFF2-111C-D7ED2173F59B">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 17:35:32 UTC</createdTime>
+<generatorID>B56B5494-661F-F12A-610E-A35765E0331A</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<referedAttribute>7F5360FE-6D8A-81E9-E210-6F3A67110C89</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06BE9D8E-ED6E-3E95-C76A-C2592EF77DC0" name="T_PRESTADOR PK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 15:12:16 UTC</createdTime>
+<ownerDesignName>ModelMER</ownerDesignName>
+<engineerTo>
+<item key="8BD968B4-FE0E-FCE3-19F1-2BCFF0C32E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>622C5129-EB6C-6A02-7F78-4E54E84CFFF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

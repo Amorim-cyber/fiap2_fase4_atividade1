@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3589B8E2-B8FC-DCE4-A128-F66172F47D52" containerWithKeyObject="0E187533-75E5-1D58-1537-61C434E6CF79" localFKIndex="CA130363-9A97-D288-1BCC-A12A614C6288" name="T2_ST_MAT_FK">
+<createdBy>lucca</createdBy>
+<createdTime>2022-06-14 18:46:29 UTC</createdTime>
+<generatorID>135BEF8C-C1A2-2B3B-7EDB-8366FE94A5DD</generatorID>
+<ownerDesignName>ModelMER</ownerDesignName>
+<referredTableLongName>T2_ST_MAT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A4118CD-AAF7-36C4-B207-CE1F2A2FB58D</referredTableID>
+<keyObject>8874E5C7-5A34-862D-9CBC-0EBBC79869C4</keyObject>
+<referredKeyID>8874E5C7-5A34-862D-9CBC-0EBBC79869C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_STATUS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
